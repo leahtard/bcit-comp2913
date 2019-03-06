@@ -1,0 +1,33 @@
+.rock-paper-scissors {
+  margin: 100px;
+  padding: 40px;
+  border: solid 1px #999;
+}
+
+.rock-paper-scissors__scoreboard {
+  display: flex;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 1px #999;
+}
+.rock-paper-scissors__scoreboard > div {
+  width: 250px;
+}
+.rock-paper-scissors__scoreboard > div:first-child {
+  border-right: solid 1px #999;
+}
+
+.rock-paper-scissors__options {
+  display: flex;
+  justify-content: center;
+}
+.rock-paper-scissors__options > div {
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+.rock-paper-scissors__options > div:first-child {
+  border-right: solid 1px #999;
+}
